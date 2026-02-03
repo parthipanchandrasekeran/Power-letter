@@ -1,0 +1,25 @@
+{
+  "name": "power-letter-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Power Letter app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google-cloud/secret-manager": "^5.6.0",
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {},
+  "keywords": ["power-letter", "consumer-rights", "anthropic"],
+  "license": "UNLICENSED",
+  "private": true
+}
