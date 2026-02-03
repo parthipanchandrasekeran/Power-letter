@@ -23,6 +23,12 @@
 -keep class com.powerletter.data.api.** { *; }
 -keep class com.powerletter.data.model.** { *; }
 
+# Keep domain models
+-keep class com.powerletter.domain.model.** { *; }
+
+# Keep repository classes
+-keep class com.powerletter.data.repository.** { *; }
+
 # OkHttp
 -dontwarn okhttp3.**
 -dontwarn okio.**
